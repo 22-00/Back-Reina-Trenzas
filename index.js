@@ -34,7 +34,7 @@ app.get("/prueba", (req, res) => {
   res.json({message: "Todo andando bien"})
 })
 
-app.post("/contac", (req, res) => {
+app.post("/contact", (req, res) => {
   const { name, lastName, email, phone, message } = req.body
 
   const mail = {
